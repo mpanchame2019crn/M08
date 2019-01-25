@@ -1,0 +1,190 @@
+
+body {
+  margin: 0;
+  padding: 20px;
+  background-color: #222;
+  font-family: Helvetica;
+}
+
+#contenidor {
+  background-color: #222;
+}
+
+#titol {
+  background-color: ;
+  width: 450px;
+  border-radius: 5px;
+  margin: 40px 0 0 0;
+  font-size: 14px;
+}
+
+#menu {
+  height: 50px;
+  background-color: #black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000000;
+  width: 400px;
+}
+
+h1 { color: #FFF; }
+h4 { color: #FFF; }
+
+#inter {
+  padding: 20px;
+  height: 175px;
+  background-color: red;
+
+}
+
+
+#logo {
+   margin: 5px 20px 5px 20px;
+   background-image: url(../imatges/logo.png);
+   background-repeat: no-repeat;
+}
+
+.posti {
+  margin-left: ;
+  padding: 5px 20px 5px 20px;
+  background-color: ;
+  background-image: url(../imgatges/logo.png);
+  background-repeat: no-repeat;
+  background-position: 0px 0px; }
+
+#barra ul { }
+
+#barra ul li { }
+
+#menu, #redes {
+  height: 50px;
+  background-color: #;
+  padding: 0 0 0 0px;
+  margin: 0 0 0 92px;
+  width: 1200px;
+  border-bottom:  10px solid #green;
+}
+
+#menu li {
+  float: left;
+  padding: 0 5px;
+  display: block;
+  font-weight: bold;
+  color: #CCC;
+  background-color: #222;
+  margin-right: 5px;
+  height: 50px;
+  margin: 0 0 0 5px;
+  line-height: 50px;
+}
+
+#redes li {
+  float: right;
+  padding: 0 5px;
+  display: block;
+  font-weight: bold;
+  color: #CCC;
+  background-color: #222;
+  margin-right: 5px;
+  height: 50px;
+  margin: 0 0 0 5px;
+  line-height: 50px;
+}
+
+#menu li:hover {
+  color: #FFF;
+  background-position: 50% 50px;
+}
+
+#redes li:hover {
+  color: #FFF;
+  background-position: 50% 50px;
+}
+
+#fotos h4 {
+  background-position: 0 -24px;
+}
+#fotos li {
+  display: block;
+ }
+#fotos ul {
+  background-color: ;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+#fotos ul li {
+  background-color: red;
+  display: block;
+  width: 175px;
+  height: 260px;
+  margin: 4px;
+  float: left;
+  /*background-size: 175px 260px;
+  /*color: transparent;*/
+}
+
+#fotos li:hover {
+  color: green;
+  background-position: ;
+}
+
+#fotos .ho li:hover{
+  color: white;
+  color: transparent;
+}
+
+.jus{
+
+}
+ p{
+
+ }
+
+
+li {
+  color: white;
+}
+li a:hover{
+  color: black;
+  color: transparent;
+}
+
+
+
+a{
+
+}
+
+ a:hover{
+   color: black;
+   color: transparent;
+ }
+
+#fotos a:hover{
+  color: black;
+  color: transparent;
+}
+
+   #f01 { background-image: url(../imatges/1982Koyaanisqatsi.jpg); }
+   #f02 { background-image: url(../imatges/2004YTuQueSabes.jpg); }
+   #f03 { background-image: url(../imatges/2005Earthlings.jpg); }
+   #f04 { background-image: url(../imatges/2007Helvetica.jpg); }
+   #f05 { background-image: url(../imatges/2007Sicko.jpg); }
+   #f06 { background-image: url(../imatges/2008Zeitgeist2.jpg); }
+   #f07 { background-image: url(../imatges/2009ArtAndCopy.jpg); }
+   #f08 { background-image: url(../imatges/02.jpg); }
+   #f09 { background-image: url(../imatges/2009Home.jpg); }
+
+#f001 { background-image: url(../imatges/2010InsideJob.jpg); }
+#f002 { background-image: url(../imatges/2009RipARemixManifesto.jpg); }
+#f003 { background-image: url(../imatges/2010ComprarTirarComprar.jpg); }
+
+
+#f1 { background-image: url(../imatges/2011LaDoctrinaDeShock.jpg); }
+#f2 { background-image: url(../imatges/2012SearchingForSugarMan.jpg); }
+#f3 { background-image: url(../imatges/2012TheActOfKilling.jpg); }
+#f4 { background-image: url(../imatges/2013ElEspirituDel45.jpg); }
