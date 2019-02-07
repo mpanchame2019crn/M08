@@ -64,13 +64,17 @@ body {
   text-shadow: 0px 0px 0px/*el tercer 2 es la sombra en desenfoc*/ #666666;
 }
 
+p {
+  /*text-align: justify;*/
+}
+
 #contingut #menu {
   height: 43px;
   width: 626px;
   background-color: #DDD;
   float: right;
   padding: 0;
-  margin-top: 83px;
+  margin-top: 77px;
 }
 
 #menu li{
@@ -160,5 +164,193 @@ h3 {
 }
 
 #presentacio, #amistats, #fotos {
-  padding:
+  padding: 12px;
+}
+
+#presentacio .estudis {
+  list-style-image: url(img/icn/icones_estudis.png);
+}
+#presentacio .feina {
+  list-style-image: url(img/icn/icones_feina.png);
+}
+#presentacio .domicili {
+  list-style-image: url(img/icn/icones_domicili.png);
+}
+#presentacio .naixement {
+  list-style-image: url(img/icn/icones_esdeveniments.png);
+}
+#presentacio .sentimental {
+  list-style-image: url(img/icn/icones_sentimental.png);
+}
+#amistats ul{
+  padding: 0px;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+#amistats li{
+  width: /*32,5%*/85px;
+  height: 85px;
+  background-color: red;
+  margin: 1px;
+  float: left;
+  background-image: url('https://mpanchame2019crn.github.io/M08//Facebook/facebook.html');
+  background-position: center;
+  background-size: 100%;
+  position: relative;
+}
+#amistats a:link {
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  bottom: 99px;
+  background-color: pink;
+  width: 99px;
+  height: 99px;
+
+}
+
+#amistats a:visited {
+  color: white;
+  text-decoration: none;
+
+}
+
+
+#MG {
+  background-image: url('https://mpanchame.crn.github.io/M08//Facebook/img/perfil.png');
+
+}
+#fotos ul li {
+  background-color: red;
+  display: block;
+  width: 99px;
+  height: 99px;
+  margin: 4px;
+  float: left;
+  background-size: 99px 99px;
+  color: transparent;
+}
+
+#f01 { background-image: url(img/fotos/f01.jpg); }
+#f02 { background-image: url(img/fotos/f02.jpg); }
+#f03 { background-image: url(img/fotos/f03.jpg); }
+#f04 { background-image: url(img/fotos/f04.jpeg); }
+#f05 { background-image: url(img/fotos/f05.jpg); }
+#f06 { background-image: url(img/fotos/f06.jpg); }
+#f07 { background-image: url(img/fotos/f07.jpg); }
+#f08 { background-image: url(img/fotos/f08.jpg); }
+#f09 { background-image: url(img/fotos/f09.jpg); }
+
+
+#estat {
+  background-color: pink;
+  overflow: hidden;
+  padding: 0 12px;
+  width: 492px;
+}
+
+#crear {
+  height: 38px;
+  width: 516px;
+  background-color: #e9ebed;
+  margin: 0;
+  padding: 0;
+  float: left;
+  overflow: hidden;
+  padding: 12px;
+  position: relative;
+  left: -12px;
+
+}
+
+#crear li {
+  list-style: none;
+  margin: 0 0 0 1px;
+  height: 38px;
+  padding: 0 10px;
+  font-size: 8px;
+  line-height: 48px;
+  background-color: white;
+
+}
+
+input /*pensament*/{
+  display: block;
+  clear: left;
+  padding: 12px;
+  position: relative;
+  left: -12px;
+  width: 516px;
+  height: 71px;
+  font-size: 1.5em;
+  background-image: url(/img/perfil.png);
+}
+
+#miniperfil{
+  float: left;
+  clear: left;
+  padding: 12px;
+  position: absolute;
+  top: 0px;
+  overflow: hidden;
+  position: relative;
+}
+
+#botonera_estat {
+  height: 38px;
+  width: 516px;
+  background-color: #f5f5f7;
+  margin: 0 0 0 1px;
+  font-size: 8px;
+  line-height: 38px;
+  padding: 12px;
+  position: relative;
+  left: -12px;
+
+
+
+}
+
+#botonera_estat
+
+
+
+#botonera_estat li:hover{
+  opacity: 0.5;
+}
+
+
+#crear li {
+  background-color: #f5f5f7;
+  text-indent: 24px;
+}
+
+#publica {
+  background-image: url();
+  background-repeat: no-repeat;
+  background-position: 6px 6px;
+}
+
+.entrada input {
+  display: block;
+  clear: both;
+  background-color: #e9ebed;
+  border: solid grey 1px;
+  border-radius: 24px;
+  line-height: 2em;
+  padding: 8px;
+  font-size: 1.3em;
+  margin-left: 60px;
+  width: 87%;
+
+}
+
+.entrada input:after{
+  content:url(img/perfil.png)
+}
+
+#agrada{
+
 }
